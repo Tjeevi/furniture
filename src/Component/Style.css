@@ -1,0 +1,147 @@
+
+ /* navbar */
+ .logo{
+    border-radius: 50%;
+    margin-left: 40%;
+}
+.kk{
+   background-color:aliceblue;
+}
+
+/* home */ 
+.link{
+   text-align: center;
+}
+section{
+    margin-left: 5%;
+    min-height:70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+}
+.btnn{
+    text-decoration: none;
+    color: white;
+}
+.btnn:hover{
+    color:white ;
+}
+
+.aa { 
+    color:blue;
+    font-size: 32px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+p{
+   font-size:22px;
+}
+.img-fluid{
+    bottom: 5%;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    
+}
+
+
+
+
+/*product*/
+
+.head{
+    font-size: 45px;
+   color: rgb(16, 64, 95);
+   text-align: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hd{
+   padding: 20px;
+   margin: 20px;
+   align-items: center;
+   cursor: pointer;
+}
+.hd:hover{
+   transform: scale(1.1);
+   transition: transform 0.6s;
+   border: 2px solid gray;
+}
+.align-cont{
+   width: 90vw;
+   text-align: center;
+}
+.center{
+   top:30% ;
+   position: relative; 
+   width: 90vw;
+   margin: 0 auto;
+   max-width: 1170px;
+   display: grid;
+   gap: 3rem 2rem;
+   justify-content: center; 
+   
+}  
+.itms{
+   text-align: center;
+   /* gap: 1rem 2rem;
+   max-width: 25rem;
+   margin-top: 70px; */
+} 
+.info{
+   margin-top: 5%;
+}
+.photo{
+   
+   object-fit: cover;
+   height: 300px;
+   width: 100%; 
+   border: 2px solid gray;
+   box-shadow: 0px 0px 15px  gray;
+
+}
+.photo:hover{
+   transform: scale(1.1);
+   transition: transform 0.6s;
+}
+.price{
+   color: green;
+}
+
+.text{
+   margin-bottom: 0; 
+   margin-top: 1rem;
+
+}
+@media screen and (min-width: 786px){
+   .itms{
+       grid-template-columns: 225px 1fr;
+       gap: 0 1.25rem;
+       max-width: 40rem;
+   }
+   .photo{
+        height: 175px; 
+   }
+}
+@media screen and (min-width: 1200px){
+   .center{
+       width: 95vw;
+       grid-template-columns: 1fr 1fr;
+   }
+   .photo{
+        height: 300px; 
+        width: 350px;
+
+   }
+
+}
+
+
+
+
+
+
+
+
